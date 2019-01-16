@@ -128,11 +128,11 @@ for (x=1; x <= 100; x++){
 //sixth attempt
 for (let num = 0; num <= 100; num++) {
   if ((0 == num % 3) && (0 == num % 5)) {
-    console.log("Happy and Sad" + "" + num);
+    console.log("Happy and Sad " + "" + num);
   } else if (0 == num % 5) {
-    console.log("sad" + "" + num);
+    console.log("sad " + "" + num);
   } else if (0 == num % 3) {
-    console.log("Happy" + "" + num);
+    console.log("Happy " + "" + num);
   } else {
     console.log(num);
   }
