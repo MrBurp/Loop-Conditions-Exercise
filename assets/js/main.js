@@ -137,13 +137,13 @@ for (let num = 0; num <= 100; num++) {
     console.log(num);
   }
 }
-
+// Ternary
 function looping2() {
   for (let num = 1; num <= 100; num++) {
     let count =
-      ((0 == num % 3) && (0 == num % 5)) ? console.log("Happy and Sad " + num) :
-      (0 == num % 5) ? console.log("sad " + num) :
-      (0 == num % 3) ? console.log("Happy " + num) : console.log(num);
+      ((0 === num % 3) && (0 === num % 5)) ? console.log("Happy and Sad " + num) :
+      (0 === num % 5) ? console.log("sad " + num) :
+      (0 === num % 3) ? console.log("Happy " + num) : console.log(num);
   }
 
 }
